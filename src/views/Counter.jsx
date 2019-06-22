@@ -6,6 +6,7 @@ import { useCounterContext } from '../context/CounterContext';
 export default function Counter() {
     return(
     <useCounterContext.Provider>
+        <h2>Counter App</h2>
         <CounterDisplay></CounterDisplay>
         <CounterButtons></CounterButtons>
     </useCounterContext.Provider>
